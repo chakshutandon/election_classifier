@@ -18,8 +18,8 @@ See NOTES.md for more information about model selection and other information.
 
 1. To set up the environment and start running the project run:
 
-    > `vagrant up`
-    > `vagrant ssh`
+    > + `vagrant up` <br />
+    > + `vagrant ssh`
 
 2. Navigate to 'http://localhost:8888' and ensure that Jupyter server is running.
 
@@ -29,8 +29,8 @@ See NOTES.md for more information about model selection and other information.
 2. Then view Model.ipynb where different models are tested and optimized.
 3. In the vagrant terminal session run:
 
-    > `python3 build_model.py`
-    > `python3 make_predictions.py`
+    > + `python3 build_model.py` <br />
+    > + `python3 make_predictions.py`
 
 4. The file predictions.csv in the root directory contains predicted class labels of the testing dataset './Data/test_potus_by_county.csv'.
 
